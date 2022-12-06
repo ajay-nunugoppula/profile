@@ -1,0 +1,94 @@
+.page {
+	/* margin: 1em auto; */
+	
+	display: flex;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	height: 100%;
+}
+.hero3{
+	display: flex;
+	padding: 10px;
+	align-items: center;
+	justify-content: center;
+	background: linear-gradient(90deg, rgba(85,0,227,1) 0%, rgba(198,61,255,1) 100%);
+  }
+
+.editorbox2{
+	padding: 30px 35px 35px;
+	background: #fff;
+	border-radius: 10px;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+	max-width: 100%;
+}
+.editorbox2 h2{
+	font-size: larger;
+}
+
+
+.box {
+	padding: 0.5em;
+	width: 100%;
+	margin: 0.5em;
+}
+
+.box-2 {
+	padding: 0.5em;
+	width: calc(100%/2 - 1em);
+}
+
+.options label,
+.options input {
+	width: 4em;
+	padding: 0.5em 1em;
+}
+
+.btn {
+	
+	border: 1px solid black;
+	padding: 0.5em 1em;
+	text-decoration: none;
+	margin: 0.8em 0.3em;
+	display: inline-block;
+	cursor: pointer;
+	color: #fff;
+	border-color: #fff;
+	align-items: center;
+	justify-content: center;
+	background: linear-gradient(90deg, rgba(85,0,227,1) 0%, rgba(198,61,255,1) 100%);
+}
+
+.hide {
+	display: none;
+}
+
+
+img {
+	max-width: 100%;
+}
+
+input[type="file"] {
+	display: none;
+}
+
+.custom-file-upload{
+	border-radius: 20px;
+	display: flex;
+	padding: 10px;
+	color: #fff;
+	border-color: #fff;
+	align-items: center;
+	justify-content: center;
+	background: linear-gradient(90deg, rgba(85,0,227,1) 0%, rgba(198,61,255,1) 100%);
+}
+.custom-file-upload:hover{
+	border-radius: 20px;
+	display: flex;
+	padding: 10px;
+	color: rgb(7, 0, 0);
+	border: 1px solid black;
+	align-items: center;
+	justify-content: center;
+	background: linear-gradient(90deg, rgb(186, 146, 255) 0%, rgb(228, 163, 255) 100%);
+
+}
