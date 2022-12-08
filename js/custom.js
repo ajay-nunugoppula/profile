@@ -4,7 +4,7 @@
 
     // PRE LOADER
     $(window).load(function(){
-      $('#js-preloader').addClass('loaded') // set duration in brackets    
+      $('#js-preloader').addClass('loaded') 
     });
     
 
